@@ -61,7 +61,7 @@ class PCA
         if ($center === true) {
             $this->center = $M->columnMeans();
         } else {
-            $this->center = new Vector(array_fill(0, $this->data->getN()));
+            $this->center = new Vector(array_fill(0, $M->getN(), 0));
         }
         if ($scale === true) {
             $scaleArray = [];
@@ -70,7 +70,7 @@ class PCA
             }
             $this->scale = new Vector($scaleArray);
         } else {
-            $this->scale = new Vector(array_fill(1, $this->data->getN()));
+            $this->scale = new Vector(array_fill(1, $M->getN(), 0));
         }
         // Save the source data to the class
         $this->data = $M;
