@@ -1,5 +1,6 @@
-<img src="https://github.com/markrogoyski/math-php/blob/develop/docs/image/MathPHPLogo.png?raw=true" alt="MathPHP Logo" style="float: left" />
-
+<div style="float: left">
+<img src="https://github.com/markrogoyski/math-php/blob/develop/docs/image/MathPHPLogo.png?raw=true" alt="MathPHP Logo" />
+</div>
 
 
 ### Powerful Modern Math Library for PHP
